@@ -21,6 +21,8 @@ Python path), and its design table (Table S11) is printed by EvoScope's `discove
 and `discovery.smallest_unflagged_fraction` (EvoScope tutorial 5).  The text below refers to the study and its
 outputs; the section numbers in it are those of this README.
 
+The code is released under the MIT License (see `LICENSE`).
+
 
 This package contains the complete code and the pre-registered protocols of every
 numerical experiment reported in the paper, together with compact summaries of
