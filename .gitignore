@@ -5,4 +5,5 @@ results/**/*.npz
 !results/trajectories/finite_population_analysis.npz
 !results/analysis/budget_curves.npz
 figures/*.pdf
+figures/*.png
 reproduced-figures/

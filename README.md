@@ -14,12 +14,20 @@ its tests check that it reproduces the numbers produced here.
 | Exploration diagnostics (`exploration_study.py`) | Section 7 | S1.5: Figure S3 |
 | Finite-population trajectories (`trajectory_study.py`, `discovery_inference.py`) | Section 7, Figure 2(c)-(d), equation (12) | S1.6-S1.7: Figures S4-S6, Tables S5-S6; S2.2-S2.3: Tables S9-S10 |
 | Verified instances (`verified_instances.py`) | Section 8, Figure 3 | S4.8 |
+| Practitioner's guide (`guide_figures.py`, `discovery_bound_design.py`) | | S2.5-S2.6: Figures S7-S8, Table S11 |
 
-The figures of the practitioner's guide (Figures S7-S8) are drawn with EvoScope from the
-same arrays by `paper_guide_figures_evoscope.py` (in this folder; it needs EvoScope on the
-Python path), and its design table (Table S11) is printed by EvoScope's `discovery.floor`
-and `discovery.smallest_unflagged_fraction` (EvoScope tutorial 5).  The text below refers to the study and its
-outputs; the section numbers in it are those of this README.
+`code/article_figures.py` draws Figures 1-3 of the article at the printed text width (6 in,
+lettering at least 9 pt) with the plotting functions of the studies, and asserts that the
+plotted numbers equal those of the study figures.
+
+The practitioner's guide uses the arrays of the studies above: `code/guide_figures.py`
+draws Figures S7 and S8 from the one-step arrays and the trajectory arrays of unequal wells
+and asserts that the recomputed bounds equal the stored analysis, and
+`code/discovery_bound_design.py` computes Table S11 with the frozen inference module.
+`paper_guide_figures_evoscope.py` (in this folder; it needs EvoScope on the Python path)
+redraws Figures S7-S8 with EvoScope and checks the toolbox against the study's analysis.
+The text below refers to the study and its outputs; the section numbers in it are those of
+this README.
 
 The code is released under the MIT License (see `LICENSE`).
 
@@ -125,6 +133,9 @@ of Section 2, "traces" by `extract_dynamic_traces.py`.
 | `budget_curves.py` | `figures/canonical_budget_curves.pdf` (paper); `results/analysis/budget_curves.npz` and audit | trajectories |
 | `reference_run_modulus.py` | `results/analysis/reference_run_modulus.json` (appendix table) | trajectories |
 | `criterion_worked_example.py` | `results/analysis/criterion_worked_example.json` (appendix table) | trajectories |
+| `article_figures.py` | `figures/article_landscape_operators.pdf`, `article_main_results.pdf`, `article_verified_instances.pdf` (Figures 1-3 of the article); `results/analysis/article_figures_audit.json` | one-step, verified, trajectories (N=32 files) |
+| `guide_figures.py` | `figures/guide_discovery_bound.pdf`, `guide_lambda_estimate.pdf` (Figures S7-S8); `results/analysis/guide_figures_audit.json` | one-step, trajectories (unequal wells, broad starts; or `--trajectories DIR`) |
+| `discovery_bound_design.py` | `results/analysis/discovery_bound_design.json` (Table S11) | nothing beyond `discovery_inference.py` |
 | `main_text_figures.py` | `figures/main_results.pdf`, `certified_rates.pdf` (paper); `results/analysis/main_results_figure_audit.json` | one-step, verified, trajectories (N=32 files), `budget_curves.npz` (shipped) |
 | `schematic_figures.py` | `figures/landscape.pdf`, `operators.pdf` (paper), `landscape_operators.pdf` | nothing (illustrations) |
 | `reproduce_paper_figures.py` | the eight data figures of the one-step, exploration and trajectory studies in `reproduced-figures/`, in the manuscript's wording, and the finite-population table | one-step, traces |
@@ -147,7 +158,9 @@ Nothing in `results/` is written.
   and objective values) and nothing else.  Runners: `one_step_study.py`,
   `exploration_study.py`, `trajectory_study.py` (with `discovery_inference.py`),
   `verified_instances.py`.  Helpers: `regenerate_arrays.py`,
-  `extract_dynamic_traces.py`.  Plotting, analysis and relabelling scripts: Section 3.
+  `extract_dynamic_traces.py`.  Plotting, analysis and relabelling scripts, including those
+  of the article's figures (`article_figures.py`) and of the practitioner's guide
+  (`guide_figures.py`, `discovery_bound_design.py`): Section 3.
 - `protocols/`: the pre-registered experiment protocols (hash-checked by the runners).
 - `results/one-step/`: the calibration and validation summaries of the one-step
   study (every generator action and finite-step statistic per instance, family and
@@ -162,7 +175,8 @@ Nothing in `results/` is written.
   the plotted-data digests used by `reproduce_paper_figures.py`.
 - `results/verified-instances/`: the summary and figure audit of the three verified instances.
 - `results/analysis/`: outputs of the derived analyses (budget curves, reference-run
-  modulus, worked criterion example, figure audits, notation labels).
+  modulus, worked criterion example, practitioner's-guide figures and design table, figure
+  audits, notation labels).
 - `figures/`: default output directory of the plotting scripts.
 
 ## Provenance of the names and hash records

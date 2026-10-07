@@ -1,0 +1,18 @@
+{
+ "requirement": "all lettering at least 9 pt at the printed width of 6 in",
+ "article_landscape_operators": {
+  "sha256": "a655d5279770b092661779dfe1235ad76febfc385290fdbe03592460fccedeaa",
+  "smallest_font_pt": 9.0
+ },
+ "article_main_results": {
+  "sha256": "b81437f384009c3fee4839e33ba00b4532eb782f0495102bf2faa963668492a7",
+  "smallest_font_pt": 9.0,
+  "plotted_numbers_equal_study_audit": true
+ },
+ "article_verified_instances": {
+  "sha256": "aa11cf6b32f44e058394d5b362ed46e9884f6948a91e2cd2c9660bb3cb20a846",
+  "smallest_font_pt": 9.0,
+  "arrays_sha256_equal_study_audit": true
+ },
+ "script_sha256": "88176028cabc7c7f645e8e8ce601a23a8552996d24ef02fc2afd2503712943b5"
+}

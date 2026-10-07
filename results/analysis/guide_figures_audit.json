@@ -1,0 +1,89 @@
+{
+ "assembly": "S1_R1_H1",
+ "order": "MRS",
+ "epsilon": 0.1,
+ "discovery_bound": {
+  "cells": {
+   "N=16": {
+    "bound_at_25_50_100_200": [
+     0.6125384326084122,
+     0.20726801450692578,
+     0.20726801450692578,
+     0.20726801450692578
+    ],
+    "flag_frequency_at_200": 0.1328125,
+    "observed_offspring_non_discovery_at_200": 0.0625,
+    "equals_stored_analysis": true
+   },
+   "N=64": {
+    "bound_at_25_50_100_200": [
+     0.4118916274844628,
+     0.0710817006829789,
+     0.04936700308345608,
+     0.04936700308345608
+    ],
+    "flag_frequency_at_200": 0.015625,
+    "observed_offspring_non_discovery_at_200": 0.0,
+    "equals_stored_analysis": true
+   },
+   "N=128": {
+    "bound_at_25_50_100_200": [
+     0.23724283963455942,
+     0.02413240525174685,
+     0.02413240525174685,
+     0.02413240525174685
+    ],
+    "flag_frequency_at_200": 0.0,
+    "observed_offspring_non_discovery_at_200": 0.0,
+    "equals_stored_analysis": true
+   }
+  },
+  "figure_sha256": "43e85c6f2af320ec4ce5b786c6c23157b2b4671b3c839be19f48d5d890f99678"
+ },
+ "drift_coefficient": {
+  "cases": {
+   "separable_pl_d4": {
+    "lambda_cal": 0.7429314878401646,
+    "calibration_populations": 64,
+    "validation_populations": 256,
+    "validation_below_lambda_cal": 0,
+    "validation_below_lambda_cal_by_family": {
+     "broad": 0,
+     "clustered": 0
+    },
+    "component_minima": [
+     0.5075571980233138,
+     -0.02117129435439641,
+     0.0004935055866221424,
+     0.23105858776607413
+    ],
+    "sum_of_component_minima": 0.7179379970216136
+   },
+   "wells_d4": {
+    "lambda_cal": 0.9499821962832017,
+    "calibration_populations": 64,
+    "validation_populations": 256,
+    "validation_below_lambda_cal": 14,
+    "validation_below_lambda_cal_by_family": {
+     "broad": 0,
+     "clustered": 14
+    }
+   },
+   "quartic_d4__clustered": {
+    "lambda_chosen": 1.0,
+    "c_cal": 1.5420931229958177,
+    "floor_c_over_lambda": 1.5420931229958177,
+    "calibration_populations": 32,
+    "validation_populations": 128,
+    "validation_above_line": 5,
+    "V_range_calibration": [
+     0.12214416546210188,
+     0.20588169318500843
+    ],
+    "all_generator_actions_positive": true
+   }
+  },
+  "figure_sha256": "3a237c6171a25a0f49ce4098484895270201990b25a1b685c4abc878c87ef33b"
+ },
+ "script_sha256": "e1146a0b6f79fb541a88afdf2b02d565511ee76fe68118d3e7d2aec6ad6d9b7d"
+}
