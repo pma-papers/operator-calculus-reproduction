@@ -1,0 +1,12 @@
+{
+  "source_summary_sha256": "46a5fdb386dfa9b205e3243aa26e74e69f3c9c32971ed3ac145a22f37514d5ca",
+  "arrays_sha256": "79a622114a49b62abedb45167eee6514e6c9f085f5c2799f87b866b62b0670d4",
+  "script_sha256": "81e350736dabbcbcade6fb69c5c56d2f996800126ae534309b3c41dfbcbbdb44",
+  "figure_sha256": "e7fb4cb3dfe8bd653c7e04349ddda6effbd6fb2d340b33f873ad86a8c2a674c5",
+  "cma_flow_certificate_holds": true,
+  "res_certificate_consistent": {
+    "separable_pl_d4": true,
+    "rotated_anisotropic_pl_d4": true,
+    "quartic_d4": true
+  }
+}

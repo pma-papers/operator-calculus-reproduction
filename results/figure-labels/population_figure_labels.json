@@ -1,0 +1,195 @@
+{
+  "status": "passed",
+  "scope": "Presentation-only terminology; no experiment or numerical-analysis rerun",
+  "replacements": [
+    [
+      "held-out laws",
+      "validation populations"
+    ],
+    [
+      "finite-law expectations",
+      "finite-population expectations"
+    ],
+    [
+      "sampled-law maxima",
+      "sampled-population maxima"
+    ],
+    [
+      "law by law",
+      "population by population"
+    ],
+    [
+      "input laws",
+      "initial populations"
+    ],
+    [
+      "law-setting-order cells",
+      "population-setting-order cells"
+    ],
+    [
+      "problem-family cases",
+      "problem/initial-distribution cases"
+    ]
+  ],
+  "protected_sha256_before": {
+    "figures/one_step_consistency.pdf": "11bd5514cfaf8e78c898ac58118e806ede5dad175b24673570e081598ad86c59",
+    "figures/one_step_consistency.png": "619d6757ccdba9afdfe6124bf2b277f9a9e416e2d726cf607dc82d92dbb38055",
+    "figures/one_step_components.pdf": "b33988912aa9c1bbafbe17be7399d802d28880fad3d22f6d951850eac99a9068",
+    "figures/one_step_components.png": "3ec0b70cb192938820ea7330d2d93591090cc45ce8ae4cf41411ab2fe0276d5f",
+    "figures/exploration_noise.pdf": "4c4967a15642de82bd77df99fb2c369c9592027d19371cff46904ddc069e7fa4",
+    "figures/exploration_noise.png": "a5ff7d4e0eb92f3057913b0bcd15efafe67156526c9c41f10ad04b07c5c39d68",
+    "figures/exploration_components.pdf": "f1a2b7a7fd0abf9b47f433002b2f90cb404990beed52265fbc4f71eb66bfaefb",
+    "figures/exploration_components.png": "b576e5206167029ef0609a3d1e3bb1ca34af1099d930f77daa12e0b8259c7150",
+    "code/relabel_trajectory_figures.py": "f0e8b979a6544541841246a3604830b587f5a57c73bdcfb01d02214907714624",
+    "code/one_step_figures.py": "4c2925730c7174201755b9152e7a87baa6b60ace49f2942c07b9678cf3dc09b5",
+    "code/exploration_figures.py": "6a6dd7ae750c1ad426c0ac41199148941eb0174330764271b751d9311a5e539c",
+    "code/one_step_study.py": "ff4404c530be6691d5f2c8402b8f3479efc68169f078d9f96042c45918035b1d",
+    "code/objectives.py": "7cedd6ce6389eb05aced752f5139f2c62d6820ab9b4aae7a7f4a33816cb0cedd",
+    "code/exploration_study.py": "55522414951385f7e9eb4dfee018b0c0be53eac5a0bf304cc57cc5b0da4a742a",
+    "results/one-step/canonical-validation/canonical_summary.json": "f4a10e06d8fb7eab5a8955be6756bdf24cf700464ced03fe9261172ab8c9bce2",
+    "results/one-step/canonical-validation/canonical_arrays.npz": "2d92da60892b1f1a9de42ae8e4fa359c19523d94dd0abd9b50afde4386bc2c6f",
+    "results/exploration/exploration_primary.csv": "539bac6d4d71eac86278e5acecdf8d3b88bd64b1711751f1664fbc1d772baf05",
+    "results/one-step/one_step_figure_audit.json": "69e3a753c488a62b045485c2ccf5313c4f0f14c5631b1962a5a43aef26977233",
+    "results/exploration/exploration_analysis.json": "99172ce11702f91895583add72c325848e936c9ba5b6b8ecc8f604f879d4f02f"
+  },
+  "protected_sha256_after": {
+    "figures/one_step_consistency.pdf": "11bd5514cfaf8e78c898ac58118e806ede5dad175b24673570e081598ad86c59",
+    "figures/one_step_consistency.png": "619d6757ccdba9afdfe6124bf2b277f9a9e416e2d726cf607dc82d92dbb38055",
+    "figures/one_step_components.pdf": "b33988912aa9c1bbafbe17be7399d802d28880fad3d22f6d951850eac99a9068",
+    "figures/one_step_components.png": "3ec0b70cb192938820ea7330d2d93591090cc45ce8ae4cf41411ab2fe0276d5f",
+    "figures/exploration_noise.pdf": "4c4967a15642de82bd77df99fb2c369c9592027d19371cff46904ddc069e7fa4",
+    "figures/exploration_noise.png": "a5ff7d4e0eb92f3057913b0bcd15efafe67156526c9c41f10ad04b07c5c39d68",
+    "figures/exploration_components.pdf": "f1a2b7a7fd0abf9b47f433002b2f90cb404990beed52265fbc4f71eb66bfaefb",
+    "figures/exploration_components.png": "b576e5206167029ef0609a3d1e3bb1ca34af1099d930f77daa12e0b8259c7150",
+    "code/relabel_trajectory_figures.py": "f0e8b979a6544541841246a3604830b587f5a57c73bdcfb01d02214907714624",
+    "code/one_step_figures.py": "4c2925730c7174201755b9152e7a87baa6b60ace49f2942c07b9678cf3dc09b5",
+    "code/exploration_figures.py": "6a6dd7ae750c1ad426c0ac41199148941eb0174330764271b751d9311a5e539c",
+    "code/one_step_study.py": "ff4404c530be6691d5f2c8402b8f3479efc68169f078d9f96042c45918035b1d",
+    "code/objectives.py": "7cedd6ce6389eb05aced752f5139f2c62d6820ab9b4aae7a7f4a33816cb0cedd",
+    "code/exploration_study.py": "55522414951385f7e9eb4dfee018b0c0be53eac5a0bf304cc57cc5b0da4a742a",
+    "results/one-step/canonical-validation/canonical_summary.json": "f4a10e06d8fb7eab5a8955be6756bdf24cf700464ced03fe9261172ab8c9bce2",
+    "results/one-step/canonical-validation/canonical_arrays.npz": "2d92da60892b1f1a9de42ae8e4fa359c19523d94dd0abd9b50afde4386bc2c6f",
+    "results/exploration/exploration_primary.csv": "539bac6d4d71eac86278e5acecdf8d3b88bd64b1711751f1664fbc1d772baf05",
+    "results/one-step/one_step_figure_audit.json": "69e3a753c488a62b045485c2ccf5313c4f0f14c5631b1962a5a43aef26977233",
+    "results/exploration/exploration_analysis.json": "99172ce11702f91895583add72c325848e936c9ba5b6b8ecc8f604f879d4f02f"
+  },
+  "all_original_files_unchanged": true,
+  "numerical_artist_data_limits_positions_unchanged": true,
+  "original_label_dry_pass": {
+    "one_step_consistency": {
+      "numerical_sha256": "1278d89b29203670cb1e9117cc21a4a34cf198b847337aa882633181253eb4f0",
+      "text_changes": []
+    },
+    "one_step_components": {
+      "numerical_sha256": "4f8ee221ad6d6a5cf7e154db1e8bb2f3bffeb860b510008b0e47057e0cb51fc5",
+      "text_changes": []
+    },
+    "exploration_noise": {
+      "numerical_sha256": "a142845971f4b4afc7d9727068b19d158b3ff8caed3e588abd58502a7ac01453",
+      "text_changes": []
+    },
+    "exploration_components": {
+      "numerical_sha256": "956a6ba686983a4fd342378d298c6152007aebb95c8b0a559a4301228c78523c",
+      "text_changes": []
+    }
+  },
+  "revised_label_pass": {
+    "one_step_consistency": {
+      "numerical_sha256": "1278d89b29203670cb1e9117cc21a4a34cf198b847337aa882633181253eb4f0",
+      "text_changes": [
+        {
+          "old": "Each curve is a maximum over 128 held-out laws and all eight assemblies (top: both orders).\nExact finite-law expectations; these sampled-law maxima are not uniform bounds.",
+          "new": "Each curve is a maximum over 128 validation populations and all eight assemblies (top: both orders).\nExact finite-population expectations; these sampled-population maxima are not uniform bounds.",
+          "font_size": 8.0,
+          "bounds_figure_fraction": [
+            0.22381944444444452,
+            0.009142857142857144,
+            0.8561805555555555,
+            0.04
+          ]
+        }
+      ]
+    },
+    "one_step_components": {
+      "numerical_sha256": "4f8ee221ad6d6a5cf7e154db1e8bb2f3bffeb860b510008b0e47057e0cb51fc5",
+      "text_changes": [
+        {
+          "old": "Positive (blue) means instantaneous gap reduction; negative (red) means gap increase.\nD is always present; H uses noise scale 0.2. Medians need not add: generator contributions add law by law.\nBoth population geometries and every assembly are retained; component 10th/90th percentiles are saved in the CSV.",
+          "new": "Positive (blue) means instantaneous gap reduction; negative (red) means gap increase.\nD is always present; H uses noise scale 0.2. Medians need not add: generator contributions add population by population.\nBoth population geometries and every assembly are retained; component 10th/90th percentiles are saved in the CSV.",
+          "font_size": 8.3,
+          "bounds_figure_fraction": [
+            0.24418981481481472,
+            0.008103896103896105,
+            0.8958101851851851,
+            0.06394805194805195
+          ]
+        }
+      ]
+    },
+    "exploration_noise": {
+      "numerical_sha256": "a142845971f4b4afc7d9727068b19d158b3ff8caed3e588abd58502a7ac01453",
+      "text_changes": [
+        {
+          "old": "$\\tau=0.1$; 128 input laws per row; four S/R settings and both orders equally weighted",
+          "new": "$\\tau=0.1$; 128 initial populations per row; four S/R settings and both orders equally weighted",
+          "font_size": 7.6,
+          "bounds_figure_fraction": [
+            0.1674414740668403,
+            0.9349367088607594,
+            0.8325585259331597,
+            0.9526582278481012
+          ]
+        },
+        {
+          "old": "Ranges describe distributions, not confidence intervals. Exact costs pool 1,024 law-setting-order cells;",
+          "new": "Ranges describe distributions, not confidence intervals. Exact costs pool 1,024 population-setting-order cells;",
+          "font_size": 7.0,
+          "bounds_figure_fraction": [
+            0.12743055555555555,
+            0.04346835443037974,
+            0.8725694444444444,
+            0.05612658227848101
+          ]
+        },
+        {
+          "old": "record outcomes pool 8,192 paired batches per row (32 candidates each). Configurations share input laws.",
+          "new": "record outcomes pool 8,192 paired batches per row (32 candidates each). Configurations share initial populations.",
+          "font_size": 7.0,
+          "bounds_figure_fraction": [
+            0.11059027777777777,
+            0.024468354430379743,
+            0.8894097222222223,
+            0.03712658227848101
+          ]
+        }
+      ]
+    },
+    "exploration_components": {
+      "numerical_sha256": "956a6ba686983a4fd342378d298c6152007aebb95c8b0a559a4301228c78523c",
+      "text_changes": [
+        {
+          "old": "All 20 problem-family cases; four other-switch settings and both orders equally weighted.",
+          "new": "All 20 problem/initial-distribution cases; four other-switch settings and both orders equally weighted.",
+          "font_size": 7.0,
+          "bounds_figure_fraction": [
+            0.1568576388888889,
+            0.025368421052631582,
+            0.8431423611111111,
+            0.038526315789473686
+          ]
+        }
+      ]
+    }
+  },
+  "visual_review": "Not asserted by the script; inspect the exported PNGs before delivery.",
+  "outputs": {
+    "figures/one_step_consistency_relabeled.pdf": "e8953208c18a77e44e00b1cf38a886e6df97d509e080fb0e3be5be32ec66a000",
+    "figures/one_step_consistency_relabeled.png": "c7897ce3c04f87a3adfefc51dbdc1788c69324599470fbc5c9cbfa7ded40de20",
+    "figures/one_step_components_relabeled.pdf": "f68debdb24b34964cb506e1ae0e8f5bbd01625d28b33c51478a5729b08e4ad9b",
+    "figures/one_step_components_relabeled.png": "2d7e4615a132e61ea2f85da8a59da0d08522aba17b556a5486287eef5d9efed3",
+    "figures/exploration_noise_relabeled.pdf": "5658ab772df0be7acce8d64ffed7656dd1aa8e7fac676d9eef93877c7baef6c3",
+    "figures/exploration_noise_relabeled.png": "12a201ddff2457ba45f61f47779d92ffa861e7b85e1b7fc3c407a512d0f34330",
+    "figures/exploration_components_relabeled.pdf": "f469b05fd9b4fd8700210f1594468c60526e96244eedaa5b5943df3999fc8a12",
+    "figures/exploration_components_relabeled.png": "bf6e9d71d6050ab6cf961e9912adfe160ab598af4d8ca4269b2e88c0ae5eaa98"
+  }
+}

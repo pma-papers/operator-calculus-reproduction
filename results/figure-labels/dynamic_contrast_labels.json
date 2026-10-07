@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "scope": "Presentation-only panel titles and row labels; no experiment or numerical-analysis rerun",
+  "reason": "The original titles named the metric only; every panel plots omitted-minus-full differences",
+  "titles": {
+    "Mean objective gap": "Mean objective gap:\nomitted minus full assembly",
+    "Best-so-far objective gap": "Best-so-far objective gap:\nomitted minus full assembly",
+    "Population variance": "Population variance:\nomitted minus full assembly"
+  },
+  "row_labels": {
+    "Broad clouds\nOmitted minus full": "Broad starts\npaired difference",
+    "Separated clusters\nOmitted minus full": "Clustered starts\npaired difference"
+  },
+  "matplotlib_version": "3.10.9",
+  "numpy_version": "2.2.6",
+  "protected_sha256_before": {
+    "figures/trajectory_contrasts_wells.pdf": "e6806c7c7d3a98d010e8862cd93f2e43a4ddd6b707ee71512623384a1d12e537",
+    "figures/trajectory_contrasts_quartic.pdf": "22c3b578a4570fa53e8016d14eefd5142ad12cd445ddaaba53551c3fcc93c3a4",
+    "code/relabel_dynamic_contrasts.py": "3d17e37ed1d3ae635e6bb90dd1c780a5de4d0d59b27ccf0d8acf396e48e42a3d",
+    "code/dynamic_contrasts.py": "b899451f6b8b95398d5539ea22e1b0f8d0dedfea8e65e0da8d0f12b655226a2e",
+    "code/trajectory_study.py": "a20a67ce0f81059de49a2a6dfb795adcd1aa63ca2a4218fe8e58d0b7aff39a46",
+    "protocols/finite-population.md": "1094141a5ca1872fb8e718511cb0f2757ac14d3a23f01bc01ee41d1fb59847a1",
+    "results/trajectories/finite-population-full/summary.json": "dd8cffdb0b2636e656f0af859690fba32c64e0d44836e45268b3e05fc40e9cd2",
+    "results/trajectories/dynamic_contrast_audit.json": "e58a8cd364a218da956c677539085cbab0e83faebf4e317cf392a508bd6dde1d"
+  },
+  "protected_sha256_after": {
+    "figures/trajectory_contrasts_wells.pdf": "e6806c7c7d3a98d010e8862cd93f2e43a4ddd6b707ee71512623384a1d12e537",
+    "figures/trajectory_contrasts_quartic.pdf": "22c3b578a4570fa53e8016d14eefd5142ad12cd445ddaaba53551c3fcc93c3a4",
+    "code/relabel_dynamic_contrasts.py": "3d17e37ed1d3ae635e6bb90dd1c780a5de4d0d59b27ccf0d8acf396e48e42a3d",
+    "code/dynamic_contrasts.py": "b899451f6b8b95398d5539ea22e1b0f8d0dedfea8e65e0da8d0f12b655226a2e",
+    "code/trajectory_study.py": "a20a67ce0f81059de49a2a6dfb795adcd1aa63ca2a4218fe8e58d0b7aff39a46",
+    "protocols/finite-population.md": "1094141a5ca1872fb8e718511cb0f2757ac14d3a23f01bc01ee41d1fb59847a1",
+    "results/trajectories/finite-population-full/summary.json": "dd8cffdb0b2636e656f0af859690fba32c64e0d44836e45268b3e05fc40e9cd2",
+    "results/trajectories/dynamic_contrast_audit.json": "e58a8cd364a218da956c677539085cbab0e83faebf4e317cf392a508bd6dde1d"
+  },
+  "all_original_files_unchanged": true,
+  "numerical_artist_data_limits_positions_unchanged": true,
+  "original_label_dry_pass": {
+    "trajectory_contrasts_wells": {
+      "numerical_sha256": "7b5e5c99b307c5669ea2726c6a03c4e7eeec818f0de5698d92e75378198999be",
+      "text_changes": [],
+      "text_outside_figure": []
+    },
+    "trajectory_contrasts_quartic": {
+      "numerical_sha256": "c9dd25e9aa54175b682edc5d62d146bdf2f9ab7a8ea4c0d060f6362e2bb5c989",
+      "text_changes": [],
+      "text_outside_figure": []
+    }
+  },
+  "revised_label_pass": {
+    "trajectory_contrasts_wells": {
+      "numerical_sha256": "7b5e5c99b307c5669ea2726c6a03c4e7eeec818f0de5698d92e75378198999be",
+      "text_changes": [
+        {
+          "kind": "title",
+          "old": "Mean objective gap",
+          "new": "Mean objective gap:\nomitted minus full assembly"
+        },
+        {
+          "kind": "title",
+          "old": "Best-so-far objective gap",
+          "new": "Best-so-far objective gap:\nomitted minus full assembly"
+        },
+        {
+          "kind": "title",
+          "old": "Population variance",
+          "new": "Population variance:\nomitted minus full assembly"
+        },
+        {
+          "kind": "ylabel",
+          "old": "Broad clouds\nOmitted minus full",
+          "new": "Broad starts\npaired difference"
+        },
+        {
+          "kind": "ylabel",
+          "old": "Separated clusters\nOmitted minus full",
+          "new": "Clustered starts\npaired difference"
+        }
+      ],
+      "text_outside_figure": []
+    },
+    "trajectory_contrasts_quartic": {
+      "numerical_sha256": "c9dd25e9aa54175b682edc5d62d146bdf2f9ab7a8ea4c0d060f6362e2bb5c989",
+      "text_changes": [
+        {
+          "kind": "title",
+          "old": "Mean objective gap",
+          "new": "Mean objective gap:\nomitted minus full assembly"
+        },
+        {
+          "kind": "title",
+          "old": "Best-so-far objective gap",
+          "new": "Best-so-far objective gap:\nomitted minus full assembly"
+        },
+        {
+          "kind": "title",
+          "old": "Population variance",
+          "new": "Population variance:\nomitted minus full assembly"
+        },
+        {
+          "kind": "ylabel",
+          "old": "Broad clouds\nOmitted minus full",
+          "new": "Broad starts\npaired difference"
+        },
+        {
+          "kind": "ylabel",
+          "old": "Separated clusters\nOmitted minus full",
+          "new": "Clustered starts\npaired difference"
+        }
+      ],
+      "text_outside_figure": []
+    }
+  },
+  "visual_review": "Not asserted by the script; inspect the PDFs before delivery.",
+  "outputs": {
+    "figures/canonical_dynamic_contrasts_wells.pdf": "1d6a998623ee28a7dae4b5916c29b82e6cc2d6492d3456b9c1cb137871413941",
+    "figures/canonical_dynamic_contrasts_quartic.pdf": "fde7a32da61929b2691b35b13cb8f8f0f3a83d66034f7760a1091d385e77769b"
+  }
+}

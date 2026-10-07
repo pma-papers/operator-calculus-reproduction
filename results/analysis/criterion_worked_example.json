@@ -1,0 +1,123 @@
+{
+  "case": "separable_pl_d4__broad",
+  "assembly": "S1_R1_H1",
+  "order": "MRS",
+  "epsilon": 0.1,
+  "delta": 0.05,
+  "eta_lev": 0.05,
+  "L_K": 1.0,
+  "kappa_band": 0.6368214870544227,
+  "L_band": 1.1031765428566764,
+  "r0": 0.04532366131582618,
+  "H_levelset_area_sup": 0.3898312284505905,
+  "rho_worst_gaussian_mixture": 1583.1434944115272,
+  "M_worst_case": 969.1236646153931,
+  "by_N": {
+    "16": {
+      "M_empirical_gen200_histogram_sup": 10.83984375,
+      "histogram_bins": 20,
+      "k_eps_from_measured_success_mass": 22,
+      "success_mass_stays_above_half_after_k_eps": true,
+      "observed_offspring_failure_gen200": 0.0,
+      "criterion": {
+        "worst_case": {
+          "M": 969.1236646153931,
+          "r_star": 5.845959469709852e-05,
+          "A_plug_in": 0.05439212996158544,
+          "discount_sum_bound": 1.018657360363774,
+          "lhs_of_(7)": 1037606221.8938897,
+          "delta_over_2": 0.025,
+          "criterion_satisfied": false,
+          "A_needed_for_delta": 1.310519559681954e-12,
+          "N_needed_if_A_decays_like_N_minus_half": 2.756164279585053e+22,
+          "measured_route_pointwise_95pct_upper_bound_gen200": 0.02980426788785213
+        },
+        "empirical_gen200": {
+          "M": 10.83984375,
+          "r_star": 0.005226512295879054,
+          "A_plug_in": 0.05439212996158544,
+          "discount_sum_bound": 1.018657360363774,
+          "lhs_of_(7)": 129813.60612925264,
+          "delta_over_2": 0.025,
+          "criterion_satisfied": false,
+          "A_needed_for_delta": 1.0475044100428958e-08,
+          "N_needed_if_A_decays_like_N_minus_half": 431400251808786.7,
+          "measured_route_pointwise_95pct_upper_bound_gen200": 0.02980426788785213
+        }
+      }
+    },
+    "32": {
+      "M_empirical_gen200_histogram_sup": 10.400390625,
+      "histogram_bins": 20,
+      "k_eps_from_measured_success_mass": 23,
+      "success_mass_stays_above_half_after_k_eps": true,
+      "observed_offspring_failure_gen200": 0.0,
+      "criterion": {
+        "worst_case": {
+          "M": 969.1236646153931,
+          "r_star": 5.845959469709852e-05,
+          "A_plug_in": 0.04381174691876315,
+          "discount_sum_bound": 1.0003355752008412,
+          "lhs_of_(7)": 820738220.2352927,
+          "delta_over_2": 0.025,
+          "criterion_satisfied": false,
+          "A_needed_for_delta": 1.3345225626937116e-12,
+          "N_needed_if_A_decays_like_N_minus_half": 3.448889477913579e+22,
+          "measured_route_pointwise_95pct_upper_bound_gen200": 0.024232867769170954
+        },
+        "empirical_gen200": {
+          "M": 10.400390625,
+          "r_star": 0.0054473508435922535,
+          "A_plug_in": 0.04381174691876315,
+          "discount_sum_bound": 1.0003355752008412,
+          "lhs_of_(7)": 94524.75564378801,
+          "delta_over_2": 0.025,
+          "criterion_satisfied": false,
+          "A_needed_for_delta": 1.1587373757374632e-08,
+          "N_needed_if_A_decays_like_N_minus_half": 457468386791313.0,
+          "measured_route_pointwise_95pct_upper_bound_gen200": 0.024232867769170954
+        }
+      }
+    },
+    "64": {
+      "M_empirical_gen200_histogram_sup": 9.8388671875,
+      "histogram_bins": 20,
+      "k_eps_from_measured_success_mass": 21,
+      "success_mass_stays_above_half_after_k_eps": true,
+      "observed_offspring_failure_gen200": 0.0,
+      "criterion": {
+        "worst_case": {
+          "M": 969.1236646153931,
+          "r_star": 5.845959469709852e-05,
+          "A_plug_in": 0.038053050302464364,
+          "discount_sum_bound": 1.0000001125351874,
+          "lhs_of_(7)": 712619821.322037,
+          "delta_over_2": 0.025,
+          "criterion_satisfied": false,
+          "A_needed_for_delta": 1.3349702451395882e-12,
+          "N_needed_if_A_decays_like_N_minus_half": 5.200148579748371e+22,
+          "measured_route_pointwise_95pct_upper_bound_gen200": 0.024132415342436687
+        },
+        "empirical_gen200": {
+          "M": 9.8388671875,
+          "r_star": 0.0057582418346657565,
+          "A_plug_in": 0.038053050302464364,
+          "discount_sum_bound": 1.0000001125351874,
+          "lhs_of_(7)": 73449.64434518991,
+          "delta_over_2": 0.025,
+          "criterion_satisfied": false,
+          "A_needed_for_delta": 1.2952088005908906e-08,
+          "N_needed_if_A_decays_like_N_minus_half": 552432666054132.56,
+          "measured_route_pointwise_95pct_upper_bound_gen200": 0.024132415342436687
+        }
+      }
+    },
+    "128": {
+      "M_empirical_gen200_histogram_sup": 9.94873046875,
+      "histogram_bins": 20,
+      "k_eps_from_measured_success_mass": 21,
+      "success_mass_stays_above_half_after_k_eps": true,
+      "observed_offspring_failure_gen200": 0.0
+    }
+  }
+}

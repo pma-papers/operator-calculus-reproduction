@@ -1,0 +1,189 @@
+{
+  "status": "passed",
+  "scope": "Presentation-only wording; plotted data identical to the original and relabeled exploration figures",
+  "replacements": [
+    [
+      "held-out laws",
+      "validation populations"
+    ],
+    [
+      "finite-law expectations",
+      "finite-population expectations"
+    ],
+    [
+      "sampled-law maxima",
+      "sampled-population maxima"
+    ],
+    [
+      "law by law",
+      "population by population"
+    ],
+    [
+      "input laws",
+      "initial populations"
+    ],
+    [
+      "law-setting-order cells",
+      "population-setting-order cells"
+    ],
+    [
+      "problem-family cases",
+      "problem/initial-distribution cases"
+    ],
+    [
+      "Paired record advantage\npositive = better record",
+      "Paired best-so-far advantage\npositive = better best-so-far value"
+    ],
+    [
+      "Record comparison\nall paired batches",
+      "Best-so-far comparison\nall paired batches"
+    ],
+    [
+      "immediate record opportunities",
+      "immediate best-so-far opportunities"
+    ],
+    [
+      "Better record",
+      "Better best-so-far value"
+    ],
+    [
+      "Worse record",
+      "Worse best-so-far value"
+    ],
+    [
+      "record outcomes pool",
+      "best-so-far outcomes pool"
+    ],
+    [
+      "Record advantage\n(normalized; signed log)",
+      "Best-so-far advantage\n(normalized; signed log)"
+    ],
+    [
+      "Immediate record effects",
+      "Immediate best-so-far effects"
+    ],
+    [
+      "positive means a better record",
+      "positive means a better best-so-far value"
+    ],
+    [
+      "$(J_{\\rm on}-J_{\\rm off})/(1+f_{\\min})$",
+      "$(\\Delta B_{\\rm on}-\\Delta B_{\\rm off})/(1+f_{\\min})$"
+    ],
+    [
+      "Audit batch b=",
+      "Audit batch n="
+    ]
+  ],
+  "protected_sha256": {
+    "figures/exploration_noise.pdf": "4c4967a15642de82bd77df99fb2c369c9592027d19371cff46904ddc069e7fa4",
+    "figures/exploration_noise.png": "a5ff7d4e0eb92f3057913b0bcd15efafe67156526c9c41f10ad04b07c5c39d68",
+    "figures/exploration_components.pdf": "f1a2b7a7fd0abf9b47f433002b2f90cb404990beed52265fbc4f71eb66bfaefb",
+    "figures/exploration_components.png": "b576e5206167029ef0609a3d1e3bb1ca34af1099d930f77daa12e0b8259c7150",
+    "figures/trajectory_discovery_bounds.pdf": "9289440eafea8a5f2e4d9715c24c9d7b12deea0979c474e3fab7854cf0e8e981",
+    "code/relabel_exploration_figures.py": "f73799a6e2e5f530c04ba8ccfc3abaacabd97f3a17a4a0aabaa40d0254b7cd87",
+    "code/exploration_figures.py": "6a6dd7ae750c1ad426c0ac41199148941eb0174330764271b751d9311a5e539c",
+    "code/trajectory_figures.py": "8aebb95bc2330f49c351b271ecee5c2a43833fd5b214b6f8a7c91ef9e205016a",
+    "results/exploration/exploration_primary.csv": "539bac6d4d71eac86278e5acecdf8d3b88bd64b1711751f1664fbc1d772baf05"
+  },
+  "passes": {
+    "exploration_noise": {
+      "numerical_sha256": "a142845971f4b4afc7d9727068b19d158b3ff8caed3e588abd58502a7ac01453",
+      "text_changes": [
+        {
+          "old": "Paired record advantage\npositive = better record",
+          "new": "Paired best-so-far advantage\npositive = better best-so-far value"
+        },
+        {
+          "old": "$(J_{\\rm on}-J_{\\rm off})/(1+f_{\\min})$\n(signed log scale)",
+          "new": "$(\\Delta B_{\\rm on}-\\Delta B_{\\rm off})/(1+f_{\\min})$\n(signed log scale)"
+        },
+        {
+          "old": "Record comparison\nall paired batches",
+          "new": "Best-so-far comparison\nall paired batches"
+        },
+        {
+          "old": "Gaussian noise: mean cost and immediate record opportunities",
+          "new": "Gaussian noise: mean cost and immediate best-so-far opportunities"
+        },
+        {
+          "old": "$\\tau=0.1$; 128 input laws per row; four S/R settings and both orders equally weighted",
+          "new": "$\\tau=0.1$; 128 initial populations per row; four S/R settings and both orders equally weighted"
+        },
+        {
+          "old": "Better record",
+          "new": "Better best-so-far value"
+        },
+        {
+          "old": "Worse record",
+          "new": "Worse best-so-far value"
+        },
+        {
+          "old": "Ranges describe distributions, not confidence intervals. Exact costs pool 1,024 law-setting-order cells;",
+          "new": "Ranges describe distributions, not confidence intervals. Exact costs pool 1,024 population-setting-order cells;"
+        },
+        {
+          "old": "record outcomes pool 8,192 paired batches per row (32 candidates each). Configurations share input laws.",
+          "new": "best-so-far outcomes pool 8,192 paired batches per row (32 candidates each). Configurations share initial populations."
+        }
+      ]
+    },
+    "exploration_components": {
+      "numerical_sha256": "956a6ba686983a4fd342378d298c6152007aebb95c8b0a559a4301228c78523c",
+      "text_changes": [
+        {
+          "old": "Record advantage\n(normalized; signed log)",
+          "new": "Best-so-far advantage\n(normalized; signed log)"
+        },
+        {
+          "old": "Record advantage\n(normalized; signed log)",
+          "new": "Best-so-far advantage\n(normalized; signed log)"
+        },
+        {
+          "old": "Record advantage\n(normalized; signed log)",
+          "new": "Best-so-far advantage\n(normalized; signed log)"
+        },
+        {
+          "old": "Immediate record effects of enabling each component",
+          "new": "Immediate best-so-far effects of enabling each component"
+        },
+        {
+          "old": "$\\tau=0.1$; $(J_{\\rm on}-J_{\\rm off})/(1+f_{\\min})$; positive means a better record",
+          "new": "$\\tau=0.1$; $(\\Delta B_{\\rm on}-\\Delta B_{\\rm off})/(1+f_{\\min})$; positive means a better best-so-far value"
+        },
+        {
+          "old": "All 20 problem-family cases; four other-switch settings and both orders equally weighted.",
+          "new": "All 20 problem/initial-distribution cases; four other-switch settings and both orders equally weighted."
+        }
+      ]
+    },
+    "trajectory_discovery_bounds": {
+      "numerical_sha256": "0c496d0ea065704a508ebdec100b444149c5d2a627555e40e2f5bdf17d936702",
+      "text_changes": [
+        {
+          "old": "Audit batch b=1",
+          "new": "Audit batch n=1"
+        },
+        {
+          "old": "Audit batch b=4",
+          "new": "Audit batch n=4"
+        },
+        {
+          "old": "Audit batch b=16",
+          "new": "Audit batch n=16"
+        },
+        {
+          "old": "Audit batch b=32",
+          "new": "Audit batch n=32"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "figures/canonical_exploration.pdf": "96872fcea93869682484e7a9cca9becbc824088fa24b47ae92bbb0251a5ee679",
+    "figures/canonical_exploration.png": "f9f30ef1178f3311d2d98d05e4ace17f4588a50db9682409d4068a680243ab1c",
+    "figures/canonical_exploration_components.pdf": "16c2894658786b086962ab0cf080b9c3dba4176dc1adce136e688fa3df44fa61",
+    "figures/canonical_exploration_components.png": "717817795c0d112b6a09d6e98651661e247fe4feb7af023f77ddf3a2cd48c7bd",
+    "figures/canonical_discovery_bounds.pdf": "23be57c7a9bca5ba9d80d102c0e88b5db19673045fe8236e7be87592f836079e"
+  }
+}

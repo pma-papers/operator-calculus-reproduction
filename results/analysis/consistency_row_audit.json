@@ -1,0 +1,251 @@
+{
+ "sources": {
+  "canonical_summary.json": "f4a10e06d8fb7eab5a8955be6756bdf24cf700464ced03fe9261172ab8c9bce2",
+  "canonical_arrays.npz": "2d92da60892b1f1a9de42ae8e4fa359c19523d94dd0abd9b50afde4386bc2c6f"
+ },
+ "figure_sha256": "c8219078d1e2f1f0b61c211d17dc61f089183fdf1ce1911bf51c7d75b1aeca37",
+ "script_sha256": "1a5e152c9465be71448360dda27270a4e543ad5bb5ba320e77ca4ea436759c99",
+ "reductions_match_one_step_audit": true,
+ "curves": [
+  {
+   "instance": "separable_pl_d4",
+   "family": "broad",
+   "quantity": "remainder",
+   "reduction": 128.6697513807838
+  },
+  {
+   "instance": "separable_pl_d8",
+   "family": "broad",
+   "quantity": "remainder",
+   "reduction": 128.48269235825111
+  },
+  {
+   "instance": "rotated_anisotropic_pl_d4",
+   "family": "broad",
+   "quantity": "remainder",
+   "reduction": 129.9958977496839
+  },
+  {
+   "instance": "rotated_anisotropic_pl_d8",
+   "family": "broad",
+   "quantity": "remainder",
+   "reduction": 127.57863739362385
+  },
+  {
+   "instance": "quartic_d4",
+   "family": "broad",
+   "quantity": "remainder",
+   "reduction": 121.65857909263191
+  },
+  {
+   "instance": "quartic_d8",
+   "family": "broad",
+   "quantity": "remainder",
+   "reduction": 123.28966016133788
+  },
+  {
+   "instance": "rastrigin_d4",
+   "family": "broad",
+   "quantity": "remainder",
+   "reduction": 145.3556302200172
+  },
+  {
+   "instance": "rosenbrock_d4",
+   "family": "broad",
+   "quantity": "remainder",
+   "reduction": 122.65360706838895
+  },
+  {
+   "instance": "wells_d4",
+   "family": "broad",
+   "quantity": "remainder",
+   "reduction": 121.57643872975916
+  },
+  {
+   "instance": "periodic_d1",
+   "family": "broad",
+   "quantity": "remainder",
+   "reduction": 128.92175165570004
+  },
+  {
+   "instance": "separable_pl_d4",
+   "family": "clustered",
+   "quantity": "remainder",
+   "reduction": 128.54956845364188
+  },
+  {
+   "instance": "separable_pl_d8",
+   "family": "clustered",
+   "quantity": "remainder",
+   "reduction": 128.5196896874875
+  },
+  {
+   "instance": "rotated_anisotropic_pl_d4",
+   "family": "clustered",
+   "quantity": "remainder",
+   "reduction": 128.65939086902753
+  },
+  {
+   "instance": "rotated_anisotropic_pl_d8",
+   "family": "clustered",
+   "quantity": "remainder",
+   "reduction": 129.28959311674302
+  },
+  {
+   "instance": "quartic_d4",
+   "family": "clustered",
+   "quantity": "remainder",
+   "reduction": 117.658752552113
+  },
+  {
+   "instance": "quartic_d8",
+   "family": "clustered",
+   "quantity": "remainder",
+   "reduction": 118.07500545482627
+  },
+  {
+   "instance": "rastrigin_d4",
+   "family": "clustered",
+   "quantity": "remainder",
+   "reduction": 129.10373608327302
+  },
+  {
+   "instance": "rosenbrock_d4",
+   "family": "clustered",
+   "quantity": "remainder",
+   "reduction": 121.27535439728499
+  },
+  {
+   "instance": "wells_d4",
+   "family": "clustered",
+   "quantity": "remainder",
+   "reduction": 119.20820661375586
+  },
+  {
+   "instance": "periodic_d1",
+   "family": "clustered",
+   "quantity": "remainder",
+   "reduction": 127.13135465791697
+  },
+  {
+   "instance": "separable_pl_d4",
+   "family": "broad",
+   "quantity": "order",
+   "reduction": 117.57520846729717
+  },
+  {
+   "instance": "separable_pl_d8",
+   "family": "broad",
+   "quantity": "order",
+   "reduction": 116.88425813773675
+  },
+  {
+   "instance": "rotated_anisotropic_pl_d4",
+   "family": "broad",
+   "quantity": "order",
+   "reduction": 117.7467387165391
+  },
+  {
+   "instance": "rotated_anisotropic_pl_d8",
+   "family": "broad",
+   "quantity": "order",
+   "reduction": 115.69168921045357
+  },
+  {
+   "instance": "quartic_d4",
+   "family": "broad",
+   "quantity": "order",
+   "reduction": 100.9139063611059
+  },
+  {
+   "instance": "quartic_d8",
+   "family": "broad",
+   "quantity": "order",
+   "reduction": 104.73641256993737
+  },
+  {
+   "instance": "rastrigin_d4",
+   "family": "broad",
+   "quantity": "order",
+   "reduction": 119.11616280594933
+  },
+  {
+   "instance": "rosenbrock_d4",
+   "family": "broad",
+   "quantity": "order",
+   "reduction": 105.1358574163452
+  },
+  {
+   "instance": "wells_d4",
+   "family": "broad",
+   "quantity": "order",
+   "reduction": 102.4383992763197
+  },
+  {
+   "instance": "periodic_d1",
+   "family": "broad",
+   "quantity": "order",
+   "reduction": 115.95690862682288
+  },
+  {
+   "instance": "separable_pl_d4",
+   "family": "clustered",
+   "quantity": "order",
+   "reduction": 116.48590274608377
+  },
+  {
+   "instance": "separable_pl_d8",
+   "family": "clustered",
+   "quantity": "order",
+   "reduction": 119.45016221179328
+  },
+  {
+   "instance": "rotated_anisotropic_pl_d4",
+   "family": "clustered",
+   "quantity": "order",
+   "reduction": 115.6230440765113
+  },
+  {
+   "instance": "rotated_anisotropic_pl_d8",
+   "family": "clustered",
+   "quantity": "order",
+   "reduction": 120.214612016875
+  },
+  {
+   "instance": "quartic_d4",
+   "family": "clustered",
+   "quantity": "order",
+   "reduction": 120.08060718768239
+  },
+  {
+   "instance": "quartic_d8",
+   "family": "clustered",
+   "quantity": "order",
+   "reduction": 120.13214732367618
+  },
+  {
+   "instance": "rastrigin_d4",
+   "family": "clustered",
+   "quantity": "order",
+   "reduction": 81.77808177455373
+  },
+  {
+   "instance": "rosenbrock_d4",
+   "family": "clustered",
+   "quantity": "order",
+   "reduction": 103.25105115610927
+  },
+  {
+   "instance": "wells_d4",
+   "family": "clustered",
+   "quantity": "order",
+   "reduction": 99.4541109991695
+  },
+  {
+   "instance": "periodic_d1",
+   "family": "clustered",
+   "quantity": "order",
+   "reduction": 109.78004915527954
+  }
+ ]
+}

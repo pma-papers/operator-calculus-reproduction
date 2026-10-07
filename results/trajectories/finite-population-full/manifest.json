@@ -1,0 +1,823 @@
+{
+  "status": "full",
+  "sources_sha256": {
+    "runner": "a20a67ce0f81059de49a2a6dfb795adcd1aa63ca2a4218fe8e58d0b7aff39a46",
+    "one_step_study": "ff4404c530be6691d5f2c8402b8f3479efc68169f078d9f96042c45918035b1d",
+    "objectives": "7cedd6ce6389eb05aced752f5139f2c62d6820ab9b4aae7a7f4a33816cb0cedd",
+    "protocol": "1094141a5ca1872fb8e718511cb0f2757ac14d3a23f01bc01ee41d1fb59847a1"
+  },
+  "instances": [
+    {
+      "id": "separable_pl_d4",
+      "family": "separable_pl",
+      "name": "Separable non-convex PL",
+      "dimension": 4,
+      "f_star": 0.0,
+      "initial_seed_base": 972610000,
+      "algorithm_seeds": {
+        "cma": 972710000,
+        "es": 972810000,
+        "cbo": 972910000
+      },
+      "rotation_seed": null,
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "minimizer_note": "unique global minimizer",
+      "objective_formula": "sum_j(x_j^2+1.05*sin(x_j)^2)"
+    },
+    {
+      "id": "separable_pl_d8",
+      "family": "separable_pl",
+      "name": "Separable non-convex PL",
+      "dimension": 8,
+      "f_star": 0.0,
+      "initial_seed_base": 972611000,
+      "algorithm_seeds": {
+        "cma": 972711000,
+        "es": 972811000,
+        "cbo": 972911000
+      },
+      "rotation_seed": null,
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "minimizer_note": "unique global minimizer",
+      "objective_formula": "sum_j(x_j^2+1.05*sin(x_j)^2)"
+    },
+    {
+      "id": "rotated_anisotropic_pl_d4",
+      "family": "rotated_anisotropic_pl",
+      "name": "Rotated anisotropic PL",
+      "dimension": 4,
+      "f_star": 0.0,
+      "initial_seed_base": 972612000,
+      "algorithm_seeds": {
+        "cma": 972712000,
+        "es": 972812000,
+        "cbo": 972912000
+      },
+      "rotation_seed": 260934,
+      "rotation": [
+        [
+          -0.44116278860596525,
+          -0.24990915621492532,
+          0.14124572820732442,
+          0.8502766913496659
+        ],
+        [
+          -0.24652962759475464,
+          -0.06700268478734579,
+          -0.9667290908932443,
+          0.012986445626142479
+        ],
+        [
+          -0.8611117184564232,
+          0.2080590701878489,
+          0.1995497537816108,
+          -0.41878147931265064
+        ],
+        [
+          0.05554408163275138,
+          0.9432748683092324,
+          -0.07526224053004739,
+          0.31856392288231905
+        ]
+      ],
+      "weights": [
+        1.0,
+        1.3333333333333333,
+        1.6666666666666665,
+        2.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "minimizer_note": "unique global minimizer",
+      "objective_formula": "sum_j a_j*(z_j^2+1.05*sin(z_j)^2), z=Q^T*x, a_j linear from1to2"
+    },
+    {
+      "id": "rotated_anisotropic_pl_d8",
+      "family": "rotated_anisotropic_pl",
+      "name": "Rotated anisotropic PL",
+      "dimension": 8,
+      "f_star": 0.0,
+      "initial_seed_base": 972613000,
+      "algorithm_seeds": {
+        "cma": 972713000,
+        "es": 972813000,
+        "cbo": 972913000
+      },
+      "rotation_seed": 260938,
+      "rotation": [
+        [
+          -0.42487923972563624,
+          0.18177248686550915,
+          -0.2165817015572049,
+          -0.47154612655927963,
+          -0.136924870082339,
+          -0.12660407119029196,
+          -0.5985569516725768,
+          0.3523145987066528
+        ],
+        [
+          -0.38152842262138875,
+          -0.32531672372397824,
+          0.3159266317176333,
+          -0.4386718763316302,
+          0.1867115061039747,
+          -0.48224391322293253,
+          0.4314403815880749,
+          -0.052926921955881785
+        ],
+        [
+          -0.22185821506425588,
+          -0.0698762010466494,
+          -0.3978713128669751,
+          -0.011747462130946709,
+          0.03290832225064098,
+          0.4027994891476102,
+          0.5375322829995607,
+          0.5789519177523592
+        ],
+        [
+          0.48707082412364694,
+          -0.4234689730225199,
+          -0.5847137855267869,
+          -0.40626903739798453,
+          -0.15353590936815,
+          -0.13953130746210374,
+          0.014619883430742104,
+          -0.18230550518921804
+        ],
+        [
+          0.49495710071427845,
+          0.18345420250544167,
+          0.26727270225531796,
+          0.009699981792364828,
+          -0.29696769634270537,
+          -0.4281609098511493,
+          0.11425539343190523,
+          0.6043735307688777
+        ],
+        [
+          0.01227075081794363,
+          -0.299394714713901,
+          -0.23855743874652205,
+          0.42912154033439864,
+          0.6261230042743549,
+          -0.3705791296963211,
+          -0.2556025277046249,
+          0.2728840880272396
+        ],
+        [
+          0.12583708328019727,
+          -0.6367965400203692,
+          0.462188246375133,
+          -0.12204560584578758,
+          -0.0144218788579613,
+          0.4455493691418966,
+          -0.296200611100769,
+          0.252358984676647
+        ],
+        [
+          0.35564949694414894,
+          0.3848592790895476,
+          0.10549224281955293,
+          -0.4699831761838067,
+          0.6643089195246686,
+          0.22479080644908037,
+          0.017672786072906843,
+          0.03513398411068304
+        ]
+      ],
+      "weights": [
+        1.0,
+        1.1428571428571428,
+        1.2857142857142856,
+        1.4285714285714286,
+        1.5714285714285714,
+        1.7142857142857142,
+        1.8571428571428572,
+        2.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "minimizer_note": "unique global minimizer",
+      "objective_formula": "sum_j a_j*(z_j^2+1.05*sin(z_j)^2), z=Q^T*x, a_j linear from1to2"
+    },
+    {
+      "id": "quartic_d4",
+      "family": "quartic",
+      "name": "Multimodal quartic",
+      "dimension": 4,
+      "f_star": 0.0,
+      "initial_seed_base": 972614000,
+      "algorithm_seeds": {
+        "cma": 972714000,
+        "es": 972814000,
+        "cbo": 972914000
+      },
+      "rotation_seed": null,
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "target": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "minimizer_note": "reference minimizer +1; all sign vectors are global minimizers",
+      "objective_formula": "sum_j(x_j^2-1)^2"
+    },
+    {
+      "id": "quartic_d8",
+      "family": "quartic",
+      "name": "Multimodal quartic",
+      "dimension": 8,
+      "f_star": 0.0,
+      "initial_seed_base": 972615000,
+      "algorithm_seeds": {
+        "cma": 972715000,
+        "es": 972815000,
+        "cbo": 972915000
+      },
+      "rotation_seed": null,
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "target": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "minimizer_note": "reference minimizer +1; all sign vectors are global minimizers",
+      "objective_formula": "sum_j(x_j^2-1)^2"
+    },
+    {
+      "id": "rastrigin_d4",
+      "family": "rastrigin",
+      "name": "Rastrigin",
+      "dimension": 4,
+      "f_star": 0.0,
+      "initial_seed_base": 972616000,
+      "algorithm_seeds": {
+        "cma": 972716000,
+        "es": 972816000,
+        "cbo": 972916000
+      },
+      "rotation_seed": null,
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "minimizer_note": "unique global minimizer",
+      "objective_formula": "sum_j[x_j^2+10*(1-cos(2*pi*x_j))]"
+    },
+    {
+      "id": "rosenbrock_d4",
+      "family": "rosenbrock",
+      "name": "Rotated scaled Rosenbrock",
+      "dimension": 4,
+      "f_star": 0.0,
+      "initial_seed_base": 972617000,
+      "algorithm_seeds": {
+        "cma": 972717000,
+        "es": 972817000,
+        "cbo": 972917000
+      },
+      "rotation_seed": 270929,
+      "rotation": [
+        [
+          -0.3729508529910124,
+          -0.08765843249590655,
+          -0.8739176678335089,
+          -0.29915141703504844
+        ],
+        [
+          -0.38626216427445986,
+          -0.8272698417800952,
+          0.1137068217640483,
+          0.3917868144992446
+        ],
+        [
+          0.06980978698794889,
+          0.3297292053386596,
+          -0.36057549578748854,
+          0.8697071671689499
+        ],
+        [
+          -0.8407352706672794,
+          0.44633984724672854,
+          0.30548973856803496,
+          0.024919170239337898
+        ]
+      ],
+      "weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "target": [
+        -1.6336783703554763,
+        -0.7080383697912622,
+        0.9086706637080699,
+        -0.063986514613178
+      ],
+      "minimizer_note": "unique global minimizer",
+      "objective_formula": "sum_{j<d}[(z_{j+1}-z_j^2)^2+.01*(1-z_j)^2], z=Q^T*x"
+    },
+    {
+      "id": "wells_d4",
+      "family": "wells",
+      "name": "Unequal wells",
+      "dimension": 4,
+      "f_star": 0.0,
+      "initial_seed_base": 972618000,
+      "algorithm_seeds": {
+        "cma": 972718000,
+        "es": 972818000,
+        "cbo": 972918000
+      },
+      "rotation_seed": null,
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "target": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "minimizer_note": "unique global minimizer",
+      "objective_formula": "(x_1^2-1)^2+.2*(x_1-1)^2+.5*sum_{j>1}x_j^2"
+    },
+    {
+      "id": "periodic_d1",
+      "family": "periodic",
+      "name": "Periodic",
+      "dimension": 1,
+      "f_star": 0.0,
+      "initial_seed_base": 972619000,
+      "algorithm_seeds": {
+        "cma": 972719000,
+        "es": 972819000,
+        "cbo": 972919000
+      },
+      "rotation_seed": null,
+      "rotation": [
+        [
+          1.0
+        ]
+      ],
+      "weights": [
+        1.0
+      ],
+      "target": [
+        0.0
+      ],
+      "minimizer_note": "reference minimizer zero; all integer multiples of 2*pi are global minimizers",
+      "objective_formula": "1-cos(x_1)"
+    }
+  ],
+  "families": [
+    "broad",
+    "clustered"
+  ],
+  "assemblies": [
+    {
+      "id": "S0_R0_H0",
+      "omega": 0,
+      "gamma": 0,
+      "sigma": 0.0
+    },
+    {
+      "id": "S0_R0_H1",
+      "omega": 0,
+      "gamma": 0,
+      "sigma": 0.2
+    },
+    {
+      "id": "S0_R1_H0",
+      "omega": 0,
+      "gamma": 1,
+      "sigma": 0.0
+    },
+    {
+      "id": "S0_R1_H1",
+      "omega": 0,
+      "gamma": 1,
+      "sigma": 0.2
+    },
+    {
+      "id": "S1_R0_H0",
+      "omega": 1,
+      "gamma": 0,
+      "sigma": 0.0
+    },
+    {
+      "id": "S1_R0_H1",
+      "omega": 1,
+      "gamma": 0,
+      "sigma": 0.2
+    },
+    {
+      "id": "S1_R1_H0",
+      "omega": 1,
+      "gamma": 1,
+      "sigma": 0.0
+    },
+    {
+      "id": "S1_R1_H1",
+      "omega": 1,
+      "gamma": 1,
+      "sigma": 0.2
+    }
+  ],
+  "orders": [
+    "MRS",
+    "MSR"
+  ],
+  "populations": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "runs_per_cell": 128,
+  "generations": 200,
+  "tau": 0.1,
+  "epsilons": [
+    0.1,
+    0.01,
+    1.0
+  ],
+  "primary_epsilon": 0.1,
+  "probe_size": 128,
+  "audit_batch_sizes": [
+    1,
+    4,
+    16,
+    32
+  ],
+  "metrics": [
+    "record_gap",
+    "mean_gap",
+    "variance",
+    "minimizer_distance2"
+  ],
+  "query_categories": [
+    "initial",
+    "selection_trial",
+    "finite_difference",
+    "output"
+  ],
+  "seed_base": 2972600000,
+  "seed_construction": "SeedSequence entropy words saved in each NPZ; initial: [base,0,instance,family,run]; other: [base,stream,instance,family,run,N,assembly,order]",
+  "stream_ids": {
+    "initial": 0,
+    "evolution": 1,
+    "probe": 2,
+    "audit": 3
+  },
+  "randomness_pairing": "Identical initial panels across assemblies/orders; nested N prefixes of 128 atoms. Evolution/probe/audit streams independent, including across assemblies/orders/N. Audit B values share nested batch prefixes.",
+  "array_axes": "Common leading axes: run, assembly, order. Traces/current_good_fraction/offspring_cumulative_hit/cumulative_calls/audit_cumulative_miss include generation zero. Probe counts/audit batch counts/cutoffs index pre-update laws for generations 1..K. Audit arrays end in batch-size, epsilon; other success arrays end in epsilon. Call arrays end in query category; traces end in metric.",
+  "accounting": "Operational archive includes initialization, all evolution finite-difference queries, all evolution rejection-trial scores, and output values. Cached current selection scores are reused without a call. Probe/audit evaluations are separate diagnostic costs and never enter the operational archive. Offspring-only discovery excludes initialization, probes, and selection trials. No objective values from observers are reused by evolution.",
+  "interpretation": "Full-panel finite-population observations and conditional-discovery recursion diagnostics; not a proved mean-field contraction or Wasserstein approximation.",
+  "python": "3.13.3",
+  "numpy": "2.4.2",
+  "workers": 4
+}

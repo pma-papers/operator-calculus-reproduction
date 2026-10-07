@@ -1,0 +1,222 @@
+{
+  "complete_instance_family_cases": 20,
+  "assemblies_per_case": 8,
+  "orders": 2,
+  "step_sizes": 8,
+  "calibration_laws": 640,
+  "validation_laws": 2560,
+  "maximum_component_coefficient_sum_error": 3.552713678800501e-15,
+  "calibration_raw_positive_drift_margins": 4,
+  "calibration_positive_drift_margins_above_roundoff": 0,
+  "calibration_maximum_positive_drift_margin": 1.4210854715202004e-14,
+  "validation_drift_violations_above_roundoff": 287,
+  "paired_law_seeds_and_remainders_verified": true,
+  "pooled_calibration_envelopes_independently_recomputed": true,
+  "all_heldout_violation_flags_recomputed": true,
+  "csv_rows": {
+    "assembly_rows": 160,
+    "remainder_rows": 2560,
+    "component_rows": 80
+  },
+  "refinement_summary": [
+    {
+      "instance": "separable_pl_d4",
+      "family": "broad",
+      "weak_remainder_reduction": 128.6697513807838,
+      "order_quotient_reduction": 117.57520846729717,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "separable_pl_d8",
+      "family": "broad",
+      "weak_remainder_reduction": 128.48269235825111,
+      "order_quotient_reduction": 116.88425813773675,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "rotated_anisotropic_pl_d4",
+      "family": "broad",
+      "weak_remainder_reduction": 129.9958977496839,
+      "order_quotient_reduction": 117.7467387165391,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "rotated_anisotropic_pl_d8",
+      "family": "broad",
+      "weak_remainder_reduction": 127.57863739362385,
+      "order_quotient_reduction": 115.69168921045357,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "quartic_d4",
+      "family": "broad",
+      "weak_remainder_reduction": 121.65857909263191,
+      "order_quotient_reduction": 100.9139063611059,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "quartic_d8",
+      "family": "broad",
+      "weak_remainder_reduction": 123.28966016133788,
+      "order_quotient_reduction": 104.73641256993737,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "rastrigin_d4",
+      "family": "broad",
+      "weak_remainder_reduction": 145.3556302200172,
+      "order_quotient_reduction": 119.11616280594933,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "rosenbrock_d4",
+      "family": "broad",
+      "weak_remainder_reduction": 122.65360706838895,
+      "order_quotient_reduction": 105.1358574163452,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "wells_d4",
+      "family": "broad",
+      "weak_remainder_reduction": 121.57643872975916,
+      "order_quotient_reduction": 102.4383992763197,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "periodic_d1",
+      "family": "broad",
+      "weak_remainder_reduction": 128.92175165570004,
+      "order_quotient_reduction": 115.95690862682288,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "separable_pl_d4",
+      "family": "clustered",
+      "weak_remainder_reduction": 128.54956845364188,
+      "order_quotient_reduction": 116.48590274608377,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "separable_pl_d8",
+      "family": "clustered",
+      "weak_remainder_reduction": 128.5196896874875,
+      "order_quotient_reduction": 119.45016221179328,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "rotated_anisotropic_pl_d4",
+      "family": "clustered",
+      "weak_remainder_reduction": 128.65939086902753,
+      "order_quotient_reduction": 115.6230440765113,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "rotated_anisotropic_pl_d8",
+      "family": "clustered",
+      "weak_remainder_reduction": 129.28959311674302,
+      "order_quotient_reduction": 120.214612016875,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "quartic_d4",
+      "family": "clustered",
+      "weak_remainder_reduction": 117.658752552113,
+      "order_quotient_reduction": 120.08060718768239,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "quartic_d8",
+      "family": "clustered",
+      "weak_remainder_reduction": 118.07500545482627,
+      "order_quotient_reduction": 120.13214732367618,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "rastrigin_d4",
+      "family": "clustered",
+      "weak_remainder_reduction": 129.10373608327302,
+      "order_quotient_reduction": 81.77808177455373,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "rosenbrock_d4",
+      "family": "clustered",
+      "weak_remainder_reduction": 121.27535439728499,
+      "order_quotient_reduction": 103.25105115610927,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "wells_d4",
+      "family": "clustered",
+      "weak_remainder_reduction": 119.20820661375586,
+      "order_quotient_reduction": 99.4541109991695,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    },
+    {
+      "instance": "periodic_d1",
+      "family": "clustered",
+      "weak_remainder_reduction": 127.13135465791697,
+      "order_quotient_reduction": 109.78004915527954,
+      "weak_remainder_decreases_at_every_refinement": true,
+      "order_quotient_decreases_at_every_refinement": true
+    }
+  ],
+  "positive_generator_actions": 1024,
+  "assembly_law_actions": 20480,
+  "resolved_finite_step_sign_disagreements": 0,
+  "drift_envelope_violations": 287,
+  "remainder_envelope_violations_by_order_step": [
+    [
+      458,
+      458,
+      459,
+      456,
+      459,
+      459,
+      460,
+      460
+    ],
+    [
+      481,
+      476,
+      469,
+      463,
+      462,
+      463,
+      465,
+      465
+    ]
+  ],
+  "cutoff_affected_support_points": 0,
+  "artifact_hashes": {
+    "calibration": {
+      "canonical_summary.json": "110d0aad0c61524e2752378123e3bf115e0dbe81f7b1f81f1b8ccb36626e7fc3",
+      "canonical_arrays.npz": "251ac91cb4d585a3f3339a720c8a9a17ff1ff7a91a79d52b81aa688bfdc5c896"
+    },
+    "validation": {
+      "canonical_summary.json": "f4a10e06d8fb7eab5a8955be6756bdf24cf700464ced03fe9261172ab8c9bce2",
+      "canonical_arrays.npz": "2d92da60892b1f1a9de42ae8e4fa359c19523d94dd0abd9b50afde4386bc2c6f"
+    }
+  },
+  "figure_source_sha256": "4c2925730c7174201755b9152e7a87baa6b60ace49f2942c07b9678cf3dc09b5",
+  "interpretation": "Frozen-law empirical diagnostics; no uniform certificate or optimizer performance claim"
+}

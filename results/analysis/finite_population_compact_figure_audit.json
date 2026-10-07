@@ -1,0 +1,29 @@
+{
+  "arrays_sha256": "83ddd178a8a1c2317891d1ee7c9b094562dba7d5ded62d21d135343ea7176b65",
+  "figure_sha256": "deecc8be67728b483724a6f80cf81a42d20d147e9715cbb16221b403d67f315f",
+  "script_sha256": "89ffe332a633273dc84d43b69753872bd8c971001b3294fc810d738af6abb893",
+  "cases_with_zero_failure": [
+    "separable_pl_d4__broad",
+    "separable_pl_d4__clustered",
+    "separable_pl_d8__broad",
+    "separable_pl_d8__clustered",
+    "rotated_anisotropic_pl_d4__broad",
+    "rotated_anisotropic_pl_d4__clustered",
+    "rotated_anisotropic_pl_d8__broad",
+    "rotated_anisotropic_pl_d8__clustered",
+    "quartic_d4__broad",
+    "quartic_d4__clustered",
+    "quartic_d8__broad",
+    "quartic_d8__clustered",
+    "rosenbrock_d4__broad",
+    "rosenbrock_d4__clustered",
+    "periodic_d1__broad",
+    "periodic_d1__clustered"
+  ],
+  "rows": [
+    "wells_d4__broad",
+    "wells_d4__clustered",
+    "rastrigin_d4__broad",
+    "rastrigin_d4__clustered"
+  ]
+}
