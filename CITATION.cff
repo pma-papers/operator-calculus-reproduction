@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Reproduction package: Operator Calculus for Population-Based Optimization"
+version: 1.0.0
+date-released: 2026-11-19
+license: MIT
+repository-code: "https://github.com/pma-papers/operator-calculus-reproduction"
+authors:
+  - family-names: Malo
+    given-names: Pekka
+    affiliation: Aalto University
+  - family-names: Viitasaari
+    given-names: Lauri
+    affiliation: Aalto University
+  - family-names: Nummi
+    given-names: Patrik
+    affiliation: Aalto University
+  - family-names: Suominen
+    given-names: Antti
+    affiliation: Aalto University
+  - family-names: Sinha
+    given-names: Ankur
+    affiliation: Indian Institute of Management Ahmedabad
+  - family-names: Tahvonen
+    given-names: Olli
+    affiliation: University of Helsinki
+preferred-citation:
+  type: article
+  title: "Operator Calculus for Population-Based Optimization: Modular Convergence and Finite-Population Guarantees"
+  authors:
+    - family-names: Malo
+      given-names: Pekka
+    - family-names: Viitasaari
+      given-names: Lauri
+    - family-names: Nummi
+      given-names: Patrik
+    - family-names: Suominen
+      given-names: Antti
+    - family-names: Sinha
+      given-names: Ankur
+    - family-names: Tahvonen
+      given-names: Olli
+  identifiers:
+    - type: other
+      value: "arXiv:2606.14289"
+  year: 2026

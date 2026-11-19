@@ -1,11 +1,13 @@
-"""Figures 1-3 of the article, drawn at the text width of 6 in with all lettering at least 9 pt.
+"""The data figures of the article and the landscape figure of the supplement, drawn at a width of 6 in
+with all lettering at least 9 pt.
 
 The figures are drawn at their final size (included at natural width), so the font sizes
 set here are the printed sizes.  They reuse the plotting functions of the study scripts
 (schematic_figures.py, main_text_figures.py, verified_instances.py) and read the same
 arrays: the one-step and verified-instances arrays (`python code/regenerate_arrays.py`) and
 the N=32 trajectory files (`python code/trajectory_study.py --run`).  The plotted numbers
-are asserted equal to the audits of the study figures.  Writes
+are asserted equal to the audits of the study figures.  The lettering is that of the current
+version of the paper (`wording.py`, text only).  Writes
 figures/article_landscape_operators.pdf, article_main_results.pdf,
 article_verified_instances.pdf and results/analysis/article_figures_audit.json.
 
@@ -31,6 +33,7 @@ from matplotlib.text import Text
 import schematic_figures as schematic
 import main_text_figures as results
 import verified_instances as experiment
+import wording
 
 FIGURES, RESULTS = ROOT/"figures", ROOT/"results/analysis"
 WIDTH, MIN_PT = 6.0, 9.0
@@ -58,6 +61,7 @@ def enforce_min_font(fig):
 
 
 def save(fig, name):
+    relabelled = wording.relabel(fig)
     smallest = enforce_min_font(fig)
     assert smallest >= MIN_PT and abs(fig.get_size_inches()[0]-WIDTH) < 1e-9
     path = FIGURES/name
@@ -65,11 +69,11 @@ def save(fig, name):
     fig.savefig(path.with_suffix(".png"), dpi=200)
     plt.close(fig)
     print("Wrote", path)
-    return {"sha256": sha256(path), "smallest_font_pt": smallest}
+    return {"sha256": sha256(path), "smallest_font_pt": smallest, "relabelled": relabelled}
 
 
 def landscape_operators():
-    """Figure 1: (a) landscape geometry, (b)-(d) one step of each canonical operator (schematic, no data)."""
+    """Landscape figure of the supplement: (a) landscape geometry, (b)-(d) one step of each canonical operator (schematic, no data)."""
     s = schematic
     fig, axes = plt.subplots(2, 2, figsize=(WIDTH, 3.5), layout="constrained")
     ax = axes[0, 0]
@@ -111,7 +115,7 @@ def landscape_operators():
 
 
 def main_results():
-    """Figure 2: the four panels of the study's main-results figure in a 2 x 2 layout."""
+    """Numerical-study figure of the article: the four panels of the study's main-results figure in a 2 x 2 layout."""
     audit = {"consistency": {}, "components": {}, "dynamics": {}, "finite_population": {}}
     fig, axes = plt.subplots(2, 2, figsize=(WIDTH, 4.4), layout="constrained")
     results.consistency(axes[0, 0], audit)
@@ -137,7 +141,7 @@ def main_results():
 
 
 def verified_instances():
-    """Figure 3: the three verified instances; same arrays and curves as verified_instances_figures.py."""
+    """Figure of the three algorithms in the article (verified instances); same arrays and curves as verified_instances_figures.py."""
     folder = ROOT/"results/verified-instances/verified-instances-full"
     summary = json.loads((folder/"summary.json").read_text())
     reference = json.loads((ROOT/"results/verified-instances/verified_instances_figure_audit.json").read_text())
@@ -194,6 +198,7 @@ def verified_instances():
 def main():
     style()
     audit = {"requirement": "all lettering at least 9 pt at the printed width of 6 in",
+             "replacements": [list(r) for r in wording.REPLACEMENTS],
              "article_landscape_operators": landscape_operators(),
              "article_main_results": main_results(),
              "article_verified_instances": verified_instances(),

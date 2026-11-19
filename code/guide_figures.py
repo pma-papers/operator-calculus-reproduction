@@ -1,15 +1,17 @@
-"""Figures S7 and S8 of the Online Appendix (the practitioner's guide).
+"""Figures of the practitioner's guide: the measured hitting-time bound (a figure of the article)
+and the estimation of the drift coefficient (a figure of the supplement).
 
-Figure S7 (measured discovery bound): the steps of the computation on three cells of the
-trajectory study (unequal wells 4D, broad starts, full assembly, order M R S).
-Figure S8 (drift coefficient): the generator-based estimate, its components, and the
+Measured hitting-time bound: the steps of the computation on three cells of the
+trajectory study (unequal wells 4D, broad starts, full variant, order M R S).
+Drift coefficient: the generator-based estimate, the single operators, and the
 residual form on populations of the one-step study.
 
 Reads the arrays of the one-step study (regenerate with `python code/regenerate_arrays.py`)
 and the trajectory arrays of unequal wells with broad starts (regenerate with
 `python code/trajectory_study.py --run`, or pass their folder with --trajectories); nothing
 is written there.  The recomputed bounds are asserted equal to the stored analysis of the
-study.  Lettering is at least 9 pt at the printed width of 6 in.  Writes
+study.  Lettering is at least 9 pt at the printed width of 6 in, in the wording of the current
+version of the paper (`wording.py`, text only).  Writes
 figures/guide_discovery_bound.pdf, figures/guide_lambda_estimate.pdf and
 results/analysis/guide_figures_audit.json.
 
@@ -34,13 +36,15 @@ from matplotlib.lines import Line2D
 from matplotlib.text import Text
 
 import discovery_inference as inference
+import wording
 
 FIGURES, RESULTS = ROOT/"figures", ROOT/"results/analysis"
-parser = argparse.ArgumentParser(description="Figures S7 and S8 of the Online Appendix.")
+parser = argparse.ArgumentParser(description="Figures of the practitioner's guide (measured hitting-time bound, drift coefficient).")
 parser.add_argument("--trajectories", type=Path, default=ROOT/"results/trajectories/finite-population-full",
                     help="folder with wells_d4__broad__N{16,64,128}.npz")
 WIDTH, MIN_PT = 6.0, 9.0
 ASSEMBLY, ORDER, EPSILON = "S1_R1_H1", "MRS", .1
+RELABELLED = {}
 N_COLORS = {16: "#c9b27c", 64: "#246f96", 128: "#1b2f44"}
 
 
@@ -49,6 +53,7 @@ def sha256(path):
 
 
 def save(fig, name):
+    RELABELLED[name] = wording.relabel(fig)
     sizes = [t.get_fontsize() for t in fig.findobj(Text) if t.get_text().strip()]
     assert min(sizes) >= MIN_PT and abs(fig.get_size_inches()[0]-WIDTH) < 1e-9
     path = FIGURES/name
@@ -177,6 +182,8 @@ def main():
     audit = {"assembly": ASSEMBLY, "order": ORDER, "epsilon": EPSILON}
     discovery_bound_figure(audit)
     lambda_figure(audit)
+    audit["replacements"] = [list(r) for r in wording.REPLACEMENTS]
+    audit["relabelled"] = RELABELLED
     audit["script_sha256"] = sha256(__file__)
     RESULTS.mkdir(exist_ok=True)
     (RESULTS/"guide_figures_audit.json").write_text(json.dumps(audit, indent=1)+"\n")

@@ -1,0 +1,138 @@
+{
+ "replacements": [
+  [
+   "(b) Mutation (drift, diffusion)",
+   "(b) Mutation (directed motion, diffusion)"
+  ],
+  [
+   "Macro-step",
+   "Time step"
+  ],
+  [
+   "Non-discovery",
+   "Failure frequency"
+  ],
+  [
+   "Objective calls",
+   "Function evaluations"
+  ],
+  [
+   "Certified",
+   "Proved"
+  ],
+  [
+   "Component coefficients",
+   "Relative effects"
+  ],
+  [
+   "Component (bars",
+   "Operator (bars"
+  ],
+  [
+   "$\\max\\,|D_{\\tau,o}-G[\\mu](f)|/(1+V)$",
+   "worst remainder"
+  ],
+  [
+   "median $-G_j[\\mu](f)/V(\\mu)$",
+   "relative effect"
+  ],
+  [
+   "$V_*$",
+   "$\\mathbb{E}_\\mu\\|X-y_*\\|^2$"
+  ],
+  [
+   "$2W_\\alpha$",
+   "$2\\,\\mathbb{E}_\\mu\\|X-v_\\alpha\\|^2$"
+  ],
+  [
+   "Mean gap $\\bar{\\mathcal{E}}_k/\\bar{\\mathcal{E}}_0$",
+   "Mean gap $\\bar\\Psi_k/\\bar\\Psi_0$"
+  ],
+  [
+   "Archive non-discovery",
+   "Archive failure frequency"
+  ],
+  [
+   "observed non-discovery",
+   "observed failure frequency"
+  ],
+  [
+   "full assembly",
+   "full variant"
+  ],
+  [
+   "Gaussian noise: mean cost",
+   "Gaussian mutation: mean cost"
+  ],
+  [
+   "Exact noise mean cost",
+   "Exact mean cost of H"
+  ],
+  [
+   "positive = worse mean gap",
+   "(positive: worse mean gap)"
+  ],
+  [
+   "positive = better best-so-far value",
+   "(positive: better)"
+  ],
+  [
+   "(b) Components, PL 4D",
+   "(b) Operators, PL 4D"
+  ]
+ ],
+ "budget_curves": {
+  "figure": "supplement_budget_curves.pdf",
+  "sha256": "fd73bdfbacff256919fc540381f772df49dd57f2767e46830c28175b51ec4446",
+  "relabelled": [
+   [
+    "Archive non-discovery ($\\varepsilon=0.1$)",
+    "Archive failure frequency ($\\varepsilon=0.1$)"
+   ],
+   [
+    "Objective calls",
+    "Function evaluations"
+   ]
+  ],
+  "curves_equal_shipped_arrays": true
+ },
+ "dynamic_contrasts": {
+  "figure": "supplement_dynamic_contrasts_wells.pdf",
+  "sha256": "5f010258de0eadb468ba59c8fdecd944015d49f14bbdcb0d4fff69ef02023864",
+  "relabelled": [
+   [
+    "Best-so-far objective gap:\nomitted minus full assembly",
+    "Best-so-far objective gap:\nomitted minus full variant"
+   ],
+   [
+    "Mean objective gap:\nomitted minus full assembly",
+    "Mean objective gap:\nomitted minus full variant"
+   ],
+   [
+    "Population variance:\nomitted minus full assembly",
+    "Population variance:\nomitted minus full variant"
+   ]
+  ],
+  "plotted_data_equal_shipped_digest": true
+ },
+ "exploration": {
+  "figure": "supplement_exploration.pdf",
+  "sha256": "571f4ee8a368d3e4718331e2b1158012de08f556fd78f8aa86ac32b54403bdcd",
+  "relabelled": [
+   [
+    "Exact noise mean cost\npositive = worse mean gap",
+    "Exact mean cost of H\n(positive: worse mean gap)"
+   ],
+   [
+    "Gaussian noise: mean cost and immediate best-so-far opportunities",
+    "Gaussian mutation: mean cost and immediate best-so-far opportunities"
+   ],
+   [
+    "Paired best-so-far advantage\npositive = better best-so-far value",
+    "Paired best-so-far advantage\n(positive: better)"
+   ]
+  ],
+  "plotted_data_equal_shipped_digest": true
+ },
+ "script_sha256": "d799ca1311271fb9553c04d9f6387a01de2e9c5576ad93074829d2bcc0ea8062"
+}

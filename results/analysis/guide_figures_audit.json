@@ -38,7 +38,7 @@
     "equals_stored_analysis": true
    }
   },
-  "figure_sha256": "43e85c6f2af320ec4ce5b786c6c23157b2b4671b3c839be19f48d5d890f99678"
+  "figure_sha256": "308cb97cffa8af97ee4d10764c3ff191eb5c3d14c034031ecade517d61abe99c"
  },
  "drift_coefficient": {
   "cases": {
@@ -83,7 +83,103 @@
     "all_generator_actions_positive": true
    }
   },
-  "figure_sha256": "3a237c6171a25a0f49ce4098484895270201990b25a1b685c4abc878c87ef33b"
+  "figure_sha256": "50ad315349b5bcba660e88c74f141ed3dcbefb6afe86d494c8e9fd480313a945"
  },
- "script_sha256": "e1146a0b6f79fb541a88afdf2b02d565511ee76fe68118d3e7d2aec6ad6d9b7d"
+ "replacements": [
+  [
+   "(b) Mutation (drift, diffusion)",
+   "(b) Mutation (directed motion, diffusion)"
+  ],
+  [
+   "Macro-step",
+   "Time step"
+  ],
+  [
+   "Non-discovery",
+   "Failure frequency"
+  ],
+  [
+   "Objective calls",
+   "Function evaluations"
+  ],
+  [
+   "Certified",
+   "Proved"
+  ],
+  [
+   "Component coefficients",
+   "Relative effects"
+  ],
+  [
+   "Component (bars",
+   "Operator (bars"
+  ],
+  [
+   "$\\max\\,|D_{\\tau,o}-G[\\mu](f)|/(1+V)$",
+   "worst remainder"
+  ],
+  [
+   "median $-G_j[\\mu](f)/V(\\mu)$",
+   "relative effect"
+  ],
+  [
+   "$V_*$",
+   "$\\mathbb{E}_\\mu\\|X-y_*\\|^2$"
+  ],
+  [
+   "$2W_\\alpha$",
+   "$2\\,\\mathbb{E}_\\mu\\|X-v_\\alpha\\|^2$"
+  ],
+  [
+   "Mean gap $\\bar{\\mathcal{E}}_k/\\bar{\\mathcal{E}}_0$",
+   "Mean gap $\\bar\\Psi_k/\\bar\\Psi_0$"
+  ],
+  [
+   "Archive non-discovery",
+   "Archive failure frequency"
+  ],
+  [
+   "observed non-discovery",
+   "observed failure frequency"
+  ],
+  [
+   "full assembly",
+   "full variant"
+  ],
+  [
+   "Gaussian noise: mean cost",
+   "Gaussian mutation: mean cost"
+  ],
+  [
+   "Exact noise mean cost",
+   "Exact mean cost of H"
+  ],
+  [
+   "positive = worse mean gap",
+   "(positive: worse mean gap)"
+  ],
+  [
+   "positive = better best-so-far value",
+   "(positive: better)"
+  ],
+  [
+   "(b) Components, PL 4D",
+   "(b) Operators, PL 4D"
+  ]
+ ],
+ "relabelled": {
+  "guide_discovery_bound.pdf": [
+   [
+    "observed non-discovery",
+    "observed failure frequency"
+   ]
+  ],
+  "guide_lambda_estimate.pdf": [
+   [
+    "(b) Components, PL 4D",
+    "(b) Operators, PL 4D"
+   ]
+  ]
+ },
+ "script_sha256": "111dfdc8774629bf63866c41b5c28cfb7bff50da1ca9aef4f77ea6db946a5ebe"
 }

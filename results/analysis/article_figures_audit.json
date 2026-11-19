@@ -1,18 +1,158 @@
 {
  "requirement": "all lettering at least 9 pt at the printed width of 6 in",
+ "replacements": [
+  [
+   "(b) Mutation (drift, diffusion)",
+   "(b) Mutation (directed motion, diffusion)"
+  ],
+  [
+   "Macro-step",
+   "Time step"
+  ],
+  [
+   "Non-discovery",
+   "Failure frequency"
+  ],
+  [
+   "Objective calls",
+   "Function evaluations"
+  ],
+  [
+   "Certified",
+   "Proved"
+  ],
+  [
+   "Component coefficients",
+   "Relative effects"
+  ],
+  [
+   "Component (bars",
+   "Operator (bars"
+  ],
+  [
+   "$\\max\\,|D_{\\tau,o}-G[\\mu](f)|/(1+V)$",
+   "worst remainder"
+  ],
+  [
+   "median $-G_j[\\mu](f)/V(\\mu)$",
+   "relative effect"
+  ],
+  [
+   "$V_*$",
+   "$\\mathbb{E}_\\mu\\|X-y_*\\|^2$"
+  ],
+  [
+   "$2W_\\alpha$",
+   "$2\\,\\mathbb{E}_\\mu\\|X-v_\\alpha\\|^2$"
+  ],
+  [
+   "Mean gap $\\bar{\\mathcal{E}}_k/\\bar{\\mathcal{E}}_0$",
+   "Mean gap $\\bar\\Psi_k/\\bar\\Psi_0$"
+  ],
+  [
+   "Archive non-discovery",
+   "Archive failure frequency"
+  ],
+  [
+   "observed non-discovery",
+   "observed failure frequency"
+  ],
+  [
+   "full assembly",
+   "full variant"
+  ],
+  [
+   "Gaussian noise: mean cost",
+   "Gaussian mutation: mean cost"
+  ],
+  [
+   "Exact noise mean cost",
+   "Exact mean cost of H"
+  ],
+  [
+   "positive = worse mean gap",
+   "(positive: worse mean gap)"
+  ],
+  [
+   "positive = better best-so-far value",
+   "(positive: better)"
+  ],
+  [
+   "(b) Components, PL 4D",
+   "(b) Operators, PL 4D"
+  ]
+ ],
  "article_landscape_operators": {
-  "sha256": "a655d5279770b092661779dfe1235ad76febfc385290fdbe03592460fccedeaa",
-  "smallest_font_pt": 9.0
+  "sha256": "d6496a6d7e7806abfdc1715471a489baf614da78a67748c00e85d1239c4626ae",
+  "smallest_font_pt": 9.0,
+  "relabelled": [
+   [
+    "(b) Mutation (drift, diffusion)",
+    "(b) Mutation (directed motion, diffusion)"
+   ]
+  ]
  },
  "article_main_results": {
-  "sha256": "b81437f384009c3fee4839e33ba00b4532eb782f0495102bf2faa963668492a7",
+  "sha256": "1126c0d962ad9cf78a48d51759f21c9ffa14456970ffa33e560b952a82a09c4c",
   "smallest_font_pt": 9.0,
+  "relabelled": [
+   [
+    "Macro-step $\\tau$",
+    "Time step $\\tau$"
+   ],
+   [
+    "$\\max\\,|D_{\\tau,o}-G[\\mu](f)|/(1+V)$",
+    "worst remainder"
+   ],
+   [
+    "Component (bars: 10\u201390% range)",
+    "Operator (bars: 10\u201390% range)"
+   ],
+   [
+    "median $-G_j[\\mu](f)/V(\\mu)$",
+    "relative effect"
+   ],
+   [
+    "(b) Component coefficients",
+    "(b) Relative effects"
+   ],
+   [
+    "Objective calls",
+    "Function evaluations"
+   ],
+   [
+    "Non-discovery ($\\varepsilon=0.1$)",
+    "Failure frequency ($\\varepsilon=0.1$)"
+   ]
+  ],
   "plotted_numbers_equal_study_audit": true
  },
  "article_verified_instances": {
-  "sha256": "aa11cf6b32f44e058394d5b362ed46e9884f6948a91e2cd2c9660bb3cb20a846",
+  "sha256": "43bed1d98f91e468f12fbf64cfade18ec61c89cf8966ed02506e30728e3557fa",
   "smallest_font_pt": 9.0,
+  "relabelled": [
+   [
+    "$V_*$",
+    "$\\mathbb{E}_\\mu\\|X-y_*\\|^2$"
+   ],
+   [
+    "$2W_\\alpha$",
+    "$2\\,\\mathbb{E}_\\mu\\|X-v_\\alpha\\|^2$"
+   ],
+   [
+    "Certified $e^{-t/4}$",
+    "Proved $e^{-t/4}$"
+   ],
+   [
+    "Mean gap $\\bar{\\mathcal{E}}_k/\\bar{\\mathcal{E}}_0$",
+    "Mean gap $\\bar\\Psi_k/\\bar\\Psi_0$"
+   ],
+   [
+    "Certified envelope",
+    "Proved envelope"
+   ]
+  ],
   "arrays_sha256_equal_study_audit": true
  },
- "script_sha256": "88176028cabc7c7f645e8e8ce601a23a8552996d24ef02fc2afd2503712943b5"
+ "script_sha256": "89375c18743ac12bd24de359837693bafd8a5014daf688f368e4900b37f70285"
 }
